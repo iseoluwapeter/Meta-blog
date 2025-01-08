@@ -7,3 +7,14 @@
 *{
     font-family: Work Sans;
 }
+
+.active{
+    
+    
+    /* color: black; */
+    
+    border-bottom: 2px solid black;
+    
+    padding: 3px;
+
+}

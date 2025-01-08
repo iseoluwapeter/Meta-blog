@@ -6,22 +6,25 @@ import Blog from './Components/Pages/Blog'
 import SinglePost from './Components/Pages/SinglePost'
 import Pages from './Components/Pages/Pages'
 import Contact from './Components/Pages/Contact'
+import Footer from './Components/Footer/Footer'
 
 
 
 const App = () => {
   return (
-    <div>
-      <Navbar/>
+    <div className="w-full ">
+      {/* <Navbar /> */}
+      
       <Routes>
-        <Route path='/' element={<Home/>}/>
-        <Route path='/blog' element ={<Blog/>}/>
-        <Route path='/singlepost' element = {<SinglePost/>}/>
-        <Route path='/pages' element = {<Pages/>}/>
-        <Route path='/contact' element ={<Contact/>}/>
+        <Route path="/" element={<Home />} />
+        <Route path="blog" element={<Blog />} />
+        <Route path="singlepost" element={<SinglePost />} />
+        <Route path="pages" element={<Pages />} />
+        <Route path="contact" element={<Contact />} />
       </Routes>
+      {/* <Footer /> */}
     </div>
-  )
+  );
 }
 
 export default App
