@@ -7,8 +7,8 @@ const Blog = () => {
   return (
     <>
       <Navbar />
-      <div className="container   ">
-        <div className=" w-full h-100 relative">
+      <div className="container relative  ">
+        <div className=" w-full h-100 ">
           <img src={assests.Hero_Img} alt="" className="w-full h-100 " />
         </div>
 

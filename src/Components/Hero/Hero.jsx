@@ -3,8 +3,9 @@ import { assests } from "../../assets/assets";
 
 const Hero = () => {
   return (
+    
     <div className="container pb-16 w-full">
-      <div className="relative">
+      <div className="">
         <img src={assests.Home_hero} alt="" className="w-full"/>
       </div>
 

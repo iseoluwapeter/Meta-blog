@@ -137,7 +137,7 @@ const Footer = () => {
                 <img
                   src={assests.Mail}
                   alt=""
-                  className="absolute -translate-y-12 right-16 md:hidden lg:right-32 gap-[40px] w-7"
+                  className="absolute -translate-y-12 right-16 md:hidden lg:right-32 xl:right-20 gap-[40px] w-7"
                 />
                 <button className=" rounded bg-[#4b6bfb] text-white  py-3 w-full text-center">
                   Subscribe

@@ -11,18 +11,21 @@ import Footer from './Components/Footer/Footer'
 
 
 const App = () => {
+  
   return (
-    <div className="w-full ">
-      {/* <Navbar /> */}
-      
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="blog" element={<Blog />} />
-        <Route path="singlepost" element={<SinglePost />} />
-        <Route path="pages" element={<Pages />} />
-        <Route path="contact" element={<Contact />} />
-      </Routes>
-      {/* <Footer /> */}
+    <div >
+      <div className="w-full ">
+        {/* <Navbar /> */}
+
+        <Routes>
+          <Route path="/" element={<Home  />} />
+          <Route path="blog" element={<Blog />} />
+          <Route path="singlepost" element={<SinglePost />} />
+          <Route path="pages" element={<Pages />} />
+          <Route path="contact" element={<Contact />} />
+        </Routes>
+        {/* <Footer /> */}
+      </div>
     </div>
   );
 }

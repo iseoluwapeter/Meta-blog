@@ -8,14 +8,14 @@ import Navbar from "../Navbar/Navbar";
 const Pages = () => {
   return (
     <>
-    <Navbar/>
+      <Navbar />
       <div className="container flex flex-col ">
         {/* title  */}
         <div className="text-center pb-5">
           <h5 className="font-semibold text-xl">Page Title</h5>
 
-          <h2 className="pe-3">
-            Home <span className="border-l-2 ps-3">Link</span>
+          <h2 className="">
+            <span className="pe-2">Home</span> <span className="border-l-2 ps-3">Link</span>
           </h2>
         </div>
 
@@ -27,7 +27,7 @@ const Pages = () => {
           <button className=" ">Load More</button>
         </div>
 
-        <Ads/>
+        <Ads />
       </div>
       <Footer />
     </>

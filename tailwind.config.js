@@ -13,7 +13,9 @@ export default {
           "2xl": "5rem",
         },
       },
+      
     },
   },
   plugins: [],
+  darkMode: "class",
 };
