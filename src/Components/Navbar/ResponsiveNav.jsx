@@ -13,7 +13,7 @@ const ResponsiveNav = ({isOpen}) => {
           transition={{ duration: 0.3 }}
           className=" top-20 left-0 w-full h-screen z-20 lg:hidden "
         >
-          <div className=" bg-slate-400 py-10 text-white rounded-xl mx-6">
+          <div className=" bg-slate-400  py-10 text-white rounded-xl mx-6">
             <ul className="flex flex-col justify-between items-center gap-6 ">
               <li>
                 <NavLink to="/">Home</NavLink>
